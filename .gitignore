@@ -43,3 +43,9 @@ robots.txt
 update.php
 web.config
 **/contrib
+**/ctools
+**/pathauto
+**/token
+**/superfish
+**/simple_menu_icons
+**/easy_breadcrumb
