@@ -1,0 +1,21 @@
+uuid: 83372105-1460-4937-9cd3-1e3361ed439a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_body
+    - node.type.content_creator
+  module:
+    - text
+id: node.content_creator.field_content_body
+field_name: field_content_body
+entity_type: node
+bundle: content_creator
+label: 'Content body'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

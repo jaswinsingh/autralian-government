@@ -1,0 +1,21 @@
+uuid: 7591d03d-41bc-4dd3-8cd6-09f1b4575d35
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_content_date
+    - node.type.event_content
+  module:
+    - datetime
+id: node.event_content.field_event_content_date
+field_name: field_event_content_date
+entity_type: node
+bundle: event_content
+label: 'Event Content Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

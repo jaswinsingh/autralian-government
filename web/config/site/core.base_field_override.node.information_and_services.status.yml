@@ -1,0 +1,22 @@
+uuid: 0792c714-322b-493b-897d-72737e4801bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.information_and_services
+id: node.information_and_services.status
+field_name: status
+entity_type: node
+bundle: information_and_services
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

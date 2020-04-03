@@ -1,0 +1,25 @@
+uuid: 191ccc88-3ae5-40d7-990f-f048e03c75c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.content_creator.field_content_body
+    - field.field.node.content_creator.field_content_title
+    - node.type.content_creator
+  module:
+    - user
+id: node.content_creator.teaser
+targetEntityType: node
+bundle: content_creator
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_content_body: true
+  field_content_title: true
+  langcode: true

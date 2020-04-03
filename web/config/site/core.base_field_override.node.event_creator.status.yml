@@ -1,0 +1,22 @@
+uuid: 88378b17-b969-48c8-bd1f-434a76d08800
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event_creator
+id: node.event_creator.status
+field_name: status
+entity_type: node
+bundle: event_creator
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

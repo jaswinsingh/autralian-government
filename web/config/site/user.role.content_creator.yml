@@ -1,0 +1,16 @@
+uuid: 9a6fccca-a755-4366-8dd2-8e81a2a29a2e
+langcode: en
+status: true
+dependencies: {  }
+id: content_creator
+label: 'Content Creator'
+weight: 5
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create content_creator content'
+  - 'delete own content_creator content'
+  - 'edit own content_creator content'
+  - 'use editorial transition ad_re'
+  - 'use editorial transition create_new_draft'

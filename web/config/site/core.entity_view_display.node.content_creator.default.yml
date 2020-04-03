@@ -1,0 +1,37 @@
+uuid: 6fd9261c-183e-450b-add0-83b5a266d021
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.content_creator.field_content_body
+    - field.field.node.content_creator.field_content_title
+    - node.type.content_creator
+  module:
+    - text
+    - user
+id: node.content_creator.default
+targetEntityType: node
+bundle: content_creator
+mode: default
+content:
+  field_content_body:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_content_title:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

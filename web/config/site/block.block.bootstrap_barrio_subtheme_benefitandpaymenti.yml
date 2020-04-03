@@ -1,0 +1,31 @@
+uuid: 40572f2b-8306-44d5-b823-bb944df049db
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:service_label:bf751759-849d-4e16-af63-2aa6dc979ef3'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+id: bootstrap_barrio_subtheme_benefitandpaymenti
+theme: bootstrap_barrio_subtheme
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:bf751759-849d-4e16-af63-2aa6dc979ef3'
+settings:
+  id: 'block_content:bf751759-849d-4e16-af63-2aa6dc979ef3'
+  label: 'benefit and payment (I)'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /Benefits-and-Payments
+    negate: false
+    context_mapping: {  }

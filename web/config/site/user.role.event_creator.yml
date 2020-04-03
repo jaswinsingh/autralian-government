@@ -1,0 +1,16 @@
+uuid: 1788109c-05b9-4f49-a4c9-fd1677323741
+langcode: en
+status: true
+dependencies: {  }
+id: event_creator
+label: 'Event Creator'
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create event_creator content'
+  - 'delete own event_creator content'
+  - 'edit own event_creator content'
+  - 'use editorial transition ad_re'
+  - 'use editorial transition create_new_draft'

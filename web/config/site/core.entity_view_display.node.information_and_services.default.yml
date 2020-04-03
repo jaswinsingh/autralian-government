@@ -1,0 +1,29 @@
+uuid: 2d612602-9840-477c-8c75-406da64577d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.information_and_services.field_content_body
+    - node.type.information_and_services
+  module:
+    - text
+    - user
+id: node.information_and_services.default
+targetEntityType: node
+bundle: information_and_services
+mode: default
+content:
+  field_content_body:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

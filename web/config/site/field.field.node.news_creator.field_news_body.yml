@@ -1,0 +1,21 @@
+uuid: 05e81ae1-8d2c-4609-af21-8595101f8da3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_body
+    - node.type.news_creator
+  module:
+    - text
+id: node.news_creator.field_news_body
+field_name: field_news_body
+entity_type: node
+bundle: news_creator
+label: 'News Body'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

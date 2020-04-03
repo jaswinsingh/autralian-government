@@ -1,0 +1,8 @@
+uuid: 81c47287-aee9-4541-a0b1-1f069d33aa03
+langcode: en
+status: true
+dependencies: {  }
+name: 'News and Event'
+vid: news_and_event
+description: ''
+weight: 0

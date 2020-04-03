@@ -1,0 +1,31 @@
+uuid: 0e64973e-7701-4b7b-9a75-e3e764ecb825
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:8467abf4-dec4-4a05-8121-a59d219442ab'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+id: bootstrap_barrio_subtheme_informationandservices
+theme: bootstrap_barrio_subtheme
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:8467abf4-dec4-4a05-8121-a59d219442ab'
+settings:
+  id: 'block_content:8467abf4-dec4-4a05-8121-a59d219442ab'
+  label: information-and-services
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /information-and-services
+    negate: false
+    context_mapping: {  }

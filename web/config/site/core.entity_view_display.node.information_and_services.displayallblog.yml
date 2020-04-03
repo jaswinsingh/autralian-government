@@ -1,0 +1,23 @@
+uuid: 862c0806-d211-4445-b459-a612dd0f31ea
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.displayallblog
+    - field.field.node.information_and_services.field_content_body
+    - node.type.information_and_services
+  module:
+    - user
+id: node.information_and_services.displayallblog
+targetEntityType: node
+bundle: information_and_services
+mode: displayallblog
+content:
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_content_body: true
+  langcode: true

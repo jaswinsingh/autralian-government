@@ -1,0 +1,23 @@
+uuid: 3e9368c8-088c-48f0-8730-8b08483ded2c
+langcode: en
+status: false
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: taxonomy
+label: taxonomy
+type: 'canonical_entities:taxonomy_term'
+pattern: 'taxonomy/[term:name] [term:tid]'
+selection_criteria:
+  522aa5fa-58ab-45cb-b723-05bdf8f8f537:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      news_category: news_category
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 522aa5fa-58ab-45cb-b723-05bdf8f8f537
+selection_logic: and
+weight: -5
+relationships: {  }

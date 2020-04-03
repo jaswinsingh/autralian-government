@@ -1,0 +1,19 @@
+uuid: f17acc4e-1a55-4983-9de4-e3758cabf84f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.information_and_services.field_content_body
+    - node.type.information_and_services
+  module:
+    - user
+id: node.information_and_services.teaser
+targetEntityType: node
+bundle: information_and_services
+mode: teaser
+content: {  }
+hidden:
+  field_content_body: true
+  langcode: true
+  links: true

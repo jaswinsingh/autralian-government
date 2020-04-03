@@ -1,0 +1,18 @@
+uuid: ecabc3f3-cabc-4c87-bf88-1080b250fc1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.service_label
+id: block_content.service_label.info
+field_name: info
+entity_type: block_content
+bundle: service_label
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

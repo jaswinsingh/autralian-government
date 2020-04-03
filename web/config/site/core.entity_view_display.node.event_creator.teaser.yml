@@ -1,0 +1,25 @@
+uuid: 185aa0f8-dc25-42d1-82db-c4648d0b88b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.event_creator.field_event_body
+    - field.field.node.event_creator.field_event_title
+    - node.type.event_creator
+  module:
+    - user
+id: node.event_creator.teaser
+targetEntityType: node
+bundle: event_creator
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_event_body: true
+  field_event_title: true
+  langcode: true

@@ -1,0 +1,18 @@
+uuid: 49d47087-b3cc-4790-8216-566e32a4fd98
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news_creator
+id: node.news_creator.created
+field_name: created
+entity_type: node
+bundle: news_creator
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

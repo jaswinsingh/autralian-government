@@ -1,0 +1,14 @@
+uuid: a8ab6291-4fca-41a2-9d89-0114a5cf248e
+name: 'Australian Government'
+mail: jaswin.singh@innoraft.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

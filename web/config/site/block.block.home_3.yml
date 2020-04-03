@@ -1,0 +1,25 @@
+uuid: 24e202c6-b378-4341-a7b2-56acd4f44c01
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.home
+  module:
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+id: home_3
+theme: bootstrap_barrio_subtheme
+region: highlighted
+weight: 0
+provider: null
+plugin: 'system_menu_block:home'
+settings:
+  id: 'system_menu_block:home'
+  label: home
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

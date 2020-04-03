@@ -1,0 +1,30 @@
+uuid: d531d65f-7a17-43ef-8bec-27a24212d2b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.information-and-services
+  module:
+    - system
+  theme:
+    - bartik
+id: informationandservices_3
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:information-and-services'
+settings:
+  id: 'system_menu_block:information-and-services'
+  label: 'information and services'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: /information-and-services
+    negate: false
+    context_mapping: {  }

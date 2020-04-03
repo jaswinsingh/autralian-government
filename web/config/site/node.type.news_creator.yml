@@ -1,0 +1,17 @@
+uuid: fe08b815-01d3-48ad-a35a-eb324f22a280
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'News Creator'
+type: news_creator
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

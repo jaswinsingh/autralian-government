@@ -1,0 +1,31 @@
+uuid: 4a8ef84b-1cfe-4a2d-a112-e90b9ad2dbc6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.service_label
+    - field.field.block_content.service_label.field_service_body
+    - field.field.block_content.service_label.field_title
+  module:
+    - text
+id: block_content.service_label.default
+targetEntityType: block_content
+bundle: service_label
+mode: default
+content:
+  field_service_body:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_title:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  langcode: true

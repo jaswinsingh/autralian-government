@@ -1,0 +1,8 @@
+uuid: 6462b417-3898-4361-8ae3-8f9548d8f681
+langcode: en
+status: true
+dependencies: {  }
+id: news-type-link
+label: 'News Type link'
+description: ''
+locked: false

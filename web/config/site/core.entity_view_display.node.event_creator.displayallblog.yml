@@ -1,0 +1,38 @@
+uuid: 25928b84-ec43-4704-9965-5583dc7d74ce
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.displayallblog
+    - field.field.node.event_creator.field_event_body
+    - field.field.node.event_creator.field_event_title
+    - node.type.event_creator
+  module:
+    - text
+    - user
+id: node.event_creator.displayallblog
+targetEntityType: node
+bundle: event_creator
+mode: displayallblog
+content:
+  field_event_body:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_event_title:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

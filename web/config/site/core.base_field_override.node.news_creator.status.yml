@@ -1,0 +1,22 @@
+uuid: e5ec1819-5440-4490-878a-658312d84678
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news_creator
+id: node.news_creator.status
+field_name: status
+entity_type: node
+bundle: news_creator
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

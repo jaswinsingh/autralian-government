@@ -1,0 +1,21 @@
+uuid: 779606fe-e473-4785-b4a8-4d6a49a81ca1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_body
+    - node.type.information_and_services
+  module:
+    - text
+id: node.information_and_services.field_content_body
+field_name: field_content_body
+entity_type: node
+bundle: information_and_services
+label: 'service and information body'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

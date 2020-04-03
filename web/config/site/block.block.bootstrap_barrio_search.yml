@@ -1,0 +1,29 @@
+uuid: 0f98bedb-31e2-418f-ab07-3a7b3ba06ddc
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - system
+  theme:
+    - bootstrap_barrio
+_core:
+  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
+id: bootstrap_barrio_search
+theme: bootstrap_barrio
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility:
+  request_path:
+    id: request_path
+    pages: "/information-and-services\r\n/*/News\r\n/*/Events"
+    negate: true
+    context_mapping: {  }

@@ -1,0 +1,30 @@
+uuid: b540ad0d-4dd9-4f8f-b07e-b935b83fbdac
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.news
+  module:
+    - system
+  theme:
+    - bartik
+id: news_2
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:news'
+settings:
+  id: 'system_menu_block:news'
+  label: News
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: "/*/News\r\n/*/NationalNews\r\n/*/InternationalNews"
+    negate: false
+    context_mapping: {  }

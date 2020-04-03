@@ -1,0 +1,8 @@
+uuid: 93fec1d0-31b1-4a4b-8fcb-c41e3217e310
+langcode: en
+status: true
+dependencies: {  }
+id: events
+label: Events
+description: ''
+locked: false

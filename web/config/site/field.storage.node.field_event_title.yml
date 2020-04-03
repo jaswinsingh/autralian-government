@@ -1,0 +1,20 @@
+uuid: f2b39819-a1e4-48d5-abd7-16ecfcab8d77
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_event_title
+field_name: field_event_title
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

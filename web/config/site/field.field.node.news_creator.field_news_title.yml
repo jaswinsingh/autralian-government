@@ -1,0 +1,21 @@
+uuid: 8fcd8b6c-8779-4bf1-ab29-1b3cbeefa896
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_title
+    - node.type.news_creator
+  module:
+    - text
+id: node.news_creator.field_news_title
+field_name: field_news_title
+entity_type: node
+bundle: news_creator
+label: 'News Title'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

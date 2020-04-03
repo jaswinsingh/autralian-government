@@ -1,0 +1,8 @@
+uuid: c605b79b-6fc7-467b-affc-6f6b9c7f4a03
+langcode: en
+status: true
+dependencies: {  }
+id: test
+label: test
+description: ''
+locked: false

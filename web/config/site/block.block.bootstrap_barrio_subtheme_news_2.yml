@@ -1,0 +1,30 @@
+uuid: 3966c9e8-7383-495a-bdae-ba5741ef1a53
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.news
+  module:
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+id: bootstrap_barrio_subtheme_news_2
+theme: bootstrap_barrio_subtheme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:news'
+settings:
+  id: 'system_menu_block:news'
+  label: News
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: "/*/News\r\n/*/NationalNews\r\n/*/InternationalNews\r\n/*/समाचार"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,18 @@
+uuid: c6d47f48-55ba-44fc-912d-5c03366003db
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event_creator
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.event_creator
+target_entity_type_id: node
+target_bundle: event_creator
+default_langcode: site_default
+language_alterable: false

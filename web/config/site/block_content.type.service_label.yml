@@ -1,0 +1,8 @@
+uuid: e587a465-edec-43cf-bd85-ca9e2c4e124e
+langcode: en
+status: true
+dependencies: {  }
+id: service_label
+label: 'Service Label'
+revision: 0
+description: ''

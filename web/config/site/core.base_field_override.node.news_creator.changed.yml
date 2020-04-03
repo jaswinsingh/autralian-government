@@ -1,0 +1,18 @@
+uuid: 329c65e6-951a-4f68-9f06-97789cd39b09
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news_creator
+id: node.news_creator.changed
+field_name: changed
+entity_type: node
+bundle: news_creator
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

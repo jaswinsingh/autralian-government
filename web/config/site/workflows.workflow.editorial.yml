@@ -1,0 +1,96 @@
+uuid: 0c1afc8e-e449-4ba3-b782-b642c1bcf626
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.content_creator
+    - node.type.event_creator
+    - node.type.news_creator
+  module:
+    - content_moderation
+_core:
+  default_config_hash: Ln7YAg2WXZ-5wn9ib-v9qOKFxF2YZLnwSKtX-V455hE
+id: editorial
+label: Editorial
+type: content_moderation
+type_settings:
+  states:
+    archived:
+      label: Archived
+      weight: 5
+      published: false
+      default_revision: true
+    draft:
+      label: Draft
+      published: false
+      default_revision: false
+      weight: -5
+    published:
+      label: Published
+      published: true
+      default_revision: true
+      weight: 0
+    review:
+      published: false
+      default_revision: false
+      label: AdminReview
+      weight: 6
+    userreview:
+      published: false
+      default_revision: false
+      label: UserReview
+      weight: 7
+  transitions:
+    ad_re:
+      label: Ad-Re
+      from:
+        - draft
+        - userreview
+      to: review
+      weight: 2
+    archive:
+      label: Archive
+      from:
+        - published
+      to: archived
+      weight: -1
+    archived_draft:
+      label: 'Restore to Draft'
+      from:
+        - archived
+      to: draft
+      weight: 0
+    archived_published:
+      label: Restore
+      from:
+        - archived
+      to: published
+      weight: 1
+    create_new_draft:
+      label: 'Create New Draft'
+      to: draft
+      weight: -3
+      from:
+        - draft
+        - published
+    publish:
+      label: Publish
+      to: published
+      weight: -2
+      from:
+        - draft
+        - published
+        - review
+    us_re:
+      label: Us-Re
+      from:
+        - published
+        - review
+      to: userreview
+      weight: 3
+  entity_types:
+    node:
+      - content_creator
+      - event_creator
+      - news_creator
+  default_moderation_state: draft
