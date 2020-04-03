@@ -42,4 +42,4 @@ README.txt
 robots.txt
 update.php
 web.config
-**/modules
+web/modules
